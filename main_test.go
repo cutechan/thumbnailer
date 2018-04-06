@@ -40,7 +40,6 @@ var samples = []string{
 	"with_sound.mp4",
 	"odd_dimensions.webm", // Unconventional dims for a YUV stream
 	"alpha.webm",
-	"start_black.webm", // Check the histogram thumbnailing
 	"exif_orientation.jpg",
 	"taeha.mp4",
 }
