@@ -245,12 +245,6 @@ func detectMimeType(buf []byte, accepted map[string]bool) (
 		}
 	}
 
-	if mime == "" {
-		if accepted == nil || accepted["audio/mpeg"] {
-			mime, ext = matchMP3(buf)
-		}
-	}
-
 	switch {
 	case mime == "":
 		err = UnsupportedMIMEError("application/octet-stream")
